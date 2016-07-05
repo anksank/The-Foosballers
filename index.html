@@ -1,0 +1,141 @@
+<!DOCTYPE  html>
+<html  lang="en"> 
+	<head>
+		<meta  charset="utf-8"> 
+		<meta  http-equiv="X-UA-Compatible"  content="IE=edge"> 
+		<meta  name="viewport"  content="width=device-width,  initial-scale=1"> 
+		<title>theFoosballers</title>
+		<link  href="css/bootstrap.min.css"  rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script> 		
+		 
+		<style> 
+			.navbar-brand{
+				font-size : 2em;
+			}
+			#logoImage{
+				height : 40px;
+				position : relative;
+				top : -10px;
+			}
+			.homeHeader{
+				margin-top : 230px;
+			}
+			.homeHeaderStyle { 
+				text-align	: center;
+				color : white;
+			}
+			.marginTop {
+				margin-top : 50px;
+			}
+			#home { 
+				background-image : url("images/background.jpg");
+				width : 100%;
+				background-size : cover;
+			}
+			#howWeRoll{
+				background-image : url("images/background2.jpg");
+				width : 100%;
+				background-size : cover;
+				background-position : right;
+				background-color : black;
+			}
+			#aboutUs{
+				width : 100%;
+				background-color : black;
+			}
+			.title {
+				font-size : 300%;
+				margin-bottom : 40px;
+			}
+			.partnerImage1 { 
+				width : 200px;
+			}
+			.partnerImage2 { 
+				width : 170px;
+			}
+		</style> 
+	</head> 
+
+	<body data-spy = "scroll" data-target = ".navbar-collapse">
+		<div class = "navbar navbar-inverse navbar-fixed-top">
+			<div class = "container">
+				<div class = "navbar-header">
+					<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navbar-collapse">
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+					</button>
+					<a href = "" class="navbar-brand pull-left"><img id = "logoImage" src = "images/logoWhiteTransparent.png"/></a>
+				</div>
+				<div class = "collapse navbar-collapse">
+					<ul class = "nav navbar-nav">
+						<li class = "active"><a href = "#home">HOME</a></li>
+						<li><a href = "#howWeRoll">HOW WE ROLL</a></li>
+						<li><a href = "#aboutUs">ABOUT US</a></li>
+					</ul>
+					<form class = "navbar-form navbar-right pull-right">
+						<div class = "form-group">
+							<input type = "email" placeholder = "Email" class = "form-control" />
+						</div>
+						<div class = "form-group">
+							<input type = "password" placeholder = "Password" class = "form-control" />
+						</div>
+						<button type = "submit" class = "btn btn-success">Log In</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class = "container contentContainer" id = "home">
+			<div class = "row">
+				<div class = "col-md-6 col-md-offset-3">
+					<div class = "homeHeader homeHeaderStyle">
+						<p class = "lead">Are you a "Champion" in Foosball ? Register to prove your skills !</p>
+						<p class = "lead">We will reach you once we have slots available for the weekend. Stay Tuned !</p>
+						<input type = "submit" value = "REGISTER" class = "btn btn-success btn-lg" />
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class = "container contentContainer" id = "howWeRoll">
+			<div class = "row homeHeaderStyle homeHeader">
+				<div class = "col-md-6 col-md-offset-3">
+					<h1 class = "title">HOW WE ROLL</h1>
+					<p class = "lead">We at theFoosballers believe, you are in one of the coolest cities there is. And anyone who has ever touched a Foosball table has our unending respect. You Sir, are among the cool people. But enough of being a champ in your regime, why not battle it out with the city's best, at the city's best PUBS?
+We bring to you, just that.
+
+Flaunt your moves and skills, dazzle away the crowd, win prizes while you do that and all this for FREE. WHAT?! That's right! Too good to be true? Why not come and give it a try? We dare you, we double dare you.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class = "container contentContainer" id = "aboutUs">
+			<div class = "row homeHeaderStyle homeHeader">
+				<div class = "col-md-6 col-md-offset-3">
+					<h1 class = "title">WE ARE THE FOOSBALLERS</h1>
+					<p class = "lead">We have the Monday blues too, we have our arses regularly on fire too, from our managers on weekdays and from our baes on the weekends, we like games too and we have got bored of just idling around on weekends too and we were looking for an escape too. We found ours and we are bringing it to you too. We are the foosballers and so are you.
+					</p><p class = "lead">Welcome to the club.</p>
+				</div>
+			</div>
+			<div class = "row homeHeaderStyle">
+				<div class = "col-md-6 col-md-offset-3">
+					<h1 class = "title">OUR PARTNERS</h1>
+					<div class = "col-md-3 col-md-offset-1">
+						<img class = "partnerImage1" src = "images/playo.png" />
+					</div>
+					<div class = "col-md-3 col-md-offset-4">
+						<img class = "partnerImage2" src = "images/opusOutOfTheBox.png" />
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+		<script>
+			$(".contentContainer").css("min-height", $(window).height());
+		</script>
+	</body>
+
+</html>
