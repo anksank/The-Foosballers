@@ -1,5 +1,5 @@
-# theFoosballers
-Landing Screen of a Foosball website which has options for Log-in, Register, Other Information about the website, etc. implemented using HTML, CSS and Twitter Bootstrap.
+# THE FOOSBALLERS  
+Landing Screen of a Foosball website which has options for Log-in, Register, Other Information about the website, etc. Implemented using HTML, CSS and Twitter Bootstrap.
 
 It can be used as the __starting point to develop any single page application/small website__.
 
